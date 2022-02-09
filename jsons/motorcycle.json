@@ -1,0 +1,86 @@
+[
+    {
+      "name":"mt-07",
+      "price":50000,
+      "info":"good motor in good price",
+      "cat":"sport",
+      "img":"https://images.pexels.com/photos/2626665/pexels-photo-2626665.jpeg?cs=srgb&dl=pexels-javier-aguilera-2626665.jpg&fm=jpg"
+    },
+    {
+        "name":"bmw-700",
+        "price":35000,
+        "info":"big company with big clients",
+        "cat":"sport ultra",
+        "img":"https://images.pexels.com/photos/2798288/pexels-photo-2798288.jpeg?cs=srgb&dl=pexels-sourav-mishra-2798288.jpg&fm=jpg"
+      },
+    {
+        "name":"ktm-250",
+        "price":32300,
+        "info":"small motor but beautiful design",
+        "cat":"kids",
+        "img":"https://images.pexels.com/photos/3068661/pexels-photo-3068661.jpeg?cs=srgb&dl=pexels-sourav-mishra-3068661.jpg&fm=jpg"
+      },
+      {
+        "name":"gas-gas-300",
+        "price":22000,
+        "info":"the best on danger rides",
+        "cat":"motocross",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"honda cbr250",
+        "price":21000,
+        "info":"good motorcycle i very like this company",
+        "cat":"motocross",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"kymco moovi",
+        "price":2000,
+        "info":"good for work",
+        "cat":"delivery",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"down-town",
+        "price":6600,
+        "info":"for short rides",
+        "cat":"town",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"srf250",
+        "price":22000,
+        "info":"good for beginners",
+        "cat":"motocross",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"joy-ride",
+        "price":8800,
+        "info":"good for delivery and town",
+        "cat":"delivery",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"x-max",
+        "price":12000,
+        "info":"very strong",
+        "cat":"town",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"t-max",
+        "price":150000,
+        "info":"not for beginners",
+        "cat":"sport",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      },
+      {
+        "name":"bmw-100rr",
+        "price":232000,
+        "info":"sport racing very very strong",
+        "cat":"sport",
+        "img":"https://images.pexels.com/photos/1024894/pexels-photo-1024894.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1024894.jpg&fm=jpg"
+      }
+  ]

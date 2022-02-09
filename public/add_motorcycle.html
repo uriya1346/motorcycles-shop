@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/add_motorcycle.css">
+<link rel="stylesheet" href="css/style.css">
+  <title>Add product</title>
+  <script type="module" src="js/add_motorcycle.js"></script>
+</head>
+
+<body class="gradient-background"> 
+
+  
+  <header class="m-0 p-0" >
+    <div class="row m-0 p-0">
+      <nav class="navbar navbar-expand-md navbar-light " data-aos="fade-down" data-aos-duration="600">
+        <a href="motorcycleList.html" class="logo  "><i class="fa fa-motorcycle" aria-hidden="true"></i></a>
+        <button style="border-radius: 24px 8px;" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav navbarMenu">
+            <li class="nav-item">
+              <a href="myMotorcycle.html" class="nav-link">MY PRODUCTS<i class="mx-2 fa fa-user-circle" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a id="id_add" href="add_motorcycle.html" class="nav-link">ADD NEW PRODUCT<i class="mx-2 fa fa-plus-circle" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="myInfo.html" class="nav-link">MY INFORMATIOM<i class="mx-2 fa fa-info-circle" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="logout.html" class="nav-link">LOG OUT<i class="mx-2 fa fa-sign-out" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container mb-5">
+    <div class="mx-auto col-lg-9 p-3">
+      <form class="p-3 shadow" id="id_form">
+        <h1 class="text-center mt-4 mb-3 gradi">Add new motorcycle<i class="mx-2 fa fa-motorcycle" aria-hidden="true"></i></h1>
+        <label class="mb-2">Name:</label>
+        <input placeholder="Name of motorcycle..." type="text" class="form-control mb-4 shadow-sm" id="id_name" required>
+        <label class="mb-2">Price:</label>
+        <input  type="number" value="10000" class="form-control mb-4 shadow-sm" id="id_price" required>
+        <label class="mb-2">category:</label>
+        <select class="form-control mb-4 " id="id_select" required>
+          <option value="#">please choose category...</option>
+          <option value="motocross">motocross</option>
+          <option value="sport">sport</option>
+          <option value="super-sport">super-sport</option>
+          <option value="kids">kids</option>
+          <option value="delivery">delivery</option>
+          <option value="town">town</option>
+        </select>
+        <label class="mb-2">Image:</label>
+        <input placeholder="Url of image..." type="text" class="form-control mb-4 shadow-sm" id="id_img">
+        <label class="mb-2">Information:</label>
+        <input placeholder="Type information about the product..." type="text" class="form-control mb-4 shadow-sm" id="id_info" required>
+        <div>
+        <button class="btnForm mt-4 mx-auto gra">Add new product</button>
+      </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>

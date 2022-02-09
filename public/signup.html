@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/singupDesign.css">
+<link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+  <script type="module" src="js/signup.js"></script>
+</head>
+<body>
+  <header class="m-0 p-0" >
+    <div class="row m-0 p-0">
+      <nav class="navbar navbar-expand-md navbar-light " data-aos="fade-down" data-aos-duration="600">
+        <a href="motorcycleList.html" class="logo  "><i class="fa fa-motorcycle" aria-hidden="true"></i></a>
+        <button style="border-radius: 24px 8px;" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav navbarMenu">
+            <li class="nav-item">
+              <a id="id_shop" href="motorcycleList.html" class="nav-link">SHOP<i class="mx-2 fa fa-shopping-bag" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a id="id_log" href="login.html" class="nav-link">LOG IN<i class="mx-2 fa fa-sign-in" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a id="id_sign" href="signup.html" class="nav-link">SIGN UP<i class="mx-2 fa fa-user-plus" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <form id="id_form" class="mx-auto p-3 shadow col-md-6">
+      <h1 class="text-center mt-4 mb-3 gradi" style="text-shadow: none;">SIGN UP</h1>
+      <label class="mb-2" >Name:</label>
+      <input id="id_name" type="text" class="mb-4 form-control" required>
+      <label class="mb-2">Email:</label>
+      <input id="id_email" type="email" class="mb-4 form-control" required>
+      <label class="mb-2">Password:</label>
+      <input id="id_password" type="password" class="mb-4 form-control" required>
+      <button class="btnLog mt-4">Sign Up<i class="mx-2 fa fa-user-plus" aria-hidden="true"></i></button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

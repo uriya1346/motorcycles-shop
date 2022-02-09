@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+  background: linear-gradient(100deg,#200c32,#e74d89,#febaa6);
+  background-size: 320% 320%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  .container-fluid{
+    width:100%;
+  }
+  .container{
+    margin:0 auto;
+  }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 999;  
+}
+header.sticky{
+    background: rgba(255, 255, 255, 0.596);
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    margin-right: 32px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li::after{
+content: '';
+width: 0%;
+height: 2px;
+background: linear-gradient(90deg, rgb(172, 105, 172) 0%, #4fd1e2 100%);
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+header ul li:hover::after{
+width: 60%;
+}
+
+header ul li a{
+  font-size: 0.8em;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+    text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+  color: rgb(0, 0, 0);
+  
+}
+
+.gradi{
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: sans-serif;
+}
+
+
+@media (max-width: 768px){
+    body{
+        padding-top: 30%;
+    }
+    header{ 
+     background: #fff;
+     justify-content: center;
+     padding-right: 32px;
+    }
+    header.sticky{
+    padding: 0;
+    }
+    header .logo{
+      padding-left:40px ;
+     }
+  }
+  @media (max-width: 426px){
+  
+    
+    header .logo{
+     padding-right:40px ;
+    }
+  
+  }
+  
